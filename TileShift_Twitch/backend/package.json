@@ -1,0 +1,11 @@
+{
+  "author": "JattMonsoon",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "description": "Solve a puzzle in a 3x3 grid.",
+  "license": "Apache-2.0",
+  "main": "boilerplate.js",
+  "name": "TileShift",
+  "version": "0.0.1"
+}

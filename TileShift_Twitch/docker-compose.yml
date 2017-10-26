@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+    boilerplatebackend:
+        volumes:
+            - .:/TileShift_Twitch
+
+            # necessary to prevent OS X node_modules being loaded in:
+            - /TileShift_Twitch/backend/node_modules
+
+        build:
+            context: ./backend
+            dockerfile: ./Dockerfile
+
+        ports:
+          - "8080:8080"
